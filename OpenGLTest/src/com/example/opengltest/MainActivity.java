@@ -15,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        //Log.d("mainAct", "here");
+        Log.d("mainAct", "Initializing...");
         
         // Create OpenGL rendering surface
         mGLView =  new MyGLSurfaceView(this);
